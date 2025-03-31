@@ -39,7 +39,8 @@ class C : public B{
 
 int main(){
 
-	B newObj;
+	B newObjB;
+	C newObjC;
 
 	
 	return 0;

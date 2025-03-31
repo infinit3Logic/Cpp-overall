@@ -25,6 +25,18 @@ class B : public A{
 		}
 };
 
+class C : public B{
+	public:
+		// Constructor
+		C(){
+			cout << "Class C Constructor\n";
+		}
+		// Destructor
+		~C(){
+			cout << "Class C Destructor\n";
+		}
+};
+
 int main(){
 
 	B newObj;
